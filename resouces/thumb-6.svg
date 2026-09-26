@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180">
+  <rect width="320" height="180" fill="#3d0c11"/>
+  <circle cx="80" cy="80" r="36" fill="#e63946"/>
+  <circle cx="160" cy="80" r="36" fill="#f1faee"/>
+  <circle cx="240" cy="80" r="36" fill="#457b9d"/>
+  <text x="24" y="160" fill="#f1faee" font-family="Arial" font-size="16">Springboks highlights</text>
+</svg>

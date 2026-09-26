@@ -7,6 +7,7 @@
         <link rel="icon" type="image/png" href="resouces/youtube-icon.png">
         <title>(342) Youtube</title>
 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     
         <link rel="stylesheet" href="styles.css">
@@ -33,16 +34,404 @@
                     Create
                 </span>
                 
-                <img id="notifications" src="resouces/notifications-icon.svg" alt="notifications"/>
+                <span class="notifications-wrap">
+                    <img id="notifications" src="resouces/notifications-icon.svg" alt="notifications"/>
+                    <span class="badge">9+</span>
+                </span>
                 <img id="avatar" src="resouces/avatar.png" alt="avatar"/>
             </div>
         </header>
 
-        <aside>
-            <section class="side-button">
-                <span class="material-symbols-outlined">home</span>
-                Home
-            </section>
-        </aside>
+        <div class="page">
+            <aside>
+                <section class="side-button active">
+                    <span class="material-symbols-outlined">home</span>
+                    Home
+                </section>
+                <section class="side-button">
+                    <span class="material-symbols-outlined">web_stories</span>
+                    Shorts
+                </section>
+                <section class="side-button">
+                    <span class="material-symbols-outlined">subscriptions</span>
+                    Subscriptions
+                </section>
+
+                <hr>
+
+                <section class="side-button">
+                    <span class="material-symbols-outlined">account_circle</span>
+                    You
+                    <span class="material-symbols-outlined chevron">chevron_right</span>
+                </section>
+                <section class="side-button">
+                    <span class="material-symbols-outlined">history</span>
+                    History
+                </section>
+                <section class="side-button">
+                    <span class="material-symbols-outlined">playlist_play</span>
+                    Playlists
+                </section>
+                <section class="side-button">
+                    <span class="material-symbols-outlined">smart_display</span>
+                    Your videos
+                </section>
+                <section class="side-button">
+                    <span class="material-symbols-outlined">schedule</span>
+                    Watch later
+                </section>
+                <section class="side-button">
+                    <span class="material-symbols-outlined">thumb_up</span>
+                    Liked videos
+                </section>
+
+                <hr>
+
+                <h2>Subscriptions</h2>
+                <section class="side-button">
+                    <img src="resouces/channel-1.svg" alt=""/>
+                    ZAIO Academy
+                </section>
+                <section class="side-button">
+                    <img src="resouces/channel-2.svg" alt=""/>
+                    CSS Club
+                </section>
+                <section class="side-button">
+                    <img src="resouces/channel-4.svg" alt=""/>
+                    Lo-fi Desk
+                </section>
+                <section class="side-button">
+                    <img src="resouces/channel-5.svg" alt=""/>
+                    Springbok TV
+                </section>
+
+                <hr>
+
+                <h2>Explore</h2>
+                <section class="side-button">
+                    <span class="material-symbols-outlined">trending_up</span>
+                    Trending
+                </section>
+                <section class="side-button">
+                    <span class="material-symbols-outlined">shopping_bag</span>
+                    Shopping
+                </section>
+                <section class="side-button">
+                    <span class="material-symbols-outlined">music_note</span>
+                    Music
+                </section>
+                <section class="side-button">
+                    <span class="material-symbols-outlined">movie</span>
+                    Films
+                </section>
+                <section class="side-button">
+                    <span class="material-symbols-outlined">sensors</span>
+                    Live
+                </section>
+                <section class="side-button">
+                    <span class="material-symbols-outlined">sports_esports</span>
+                    Gaming
+                </section>
+                <section class="side-button">
+                    <span class="material-symbols-outlined">newspaper</span>
+                    News
+                </section>
+                <section class="side-button">
+                    <span class="material-symbols-outlined">emoji_events</span>
+                    Sport
+                </section>
+                <section class="side-button">
+                    <span class="material-symbols-outlined">school</span>
+                    Courses
+                </section>
+                <section class="side-button">
+                    <span class="material-symbols-outlined">checkroom</span>
+                    Fashion & beauty
+                </section>
+                <section class="side-button">
+                    <span class="material-symbols-outlined">podcasts</span>
+                    Podcasts
+                </section>
+
+                <hr>
+
+                <h2>More from YouTube</h2>
+                <section class="side-button">
+                    <img class="yt-mini" src="resouces/youtube-icon.png" alt=""/>
+                    YouTube Studio
+                </section>
+                <section class="side-button">
+                    <img class="yt-mini" src="resouces/youtube-icon.png" alt=""/>
+                    YouTube Music
+                </section>
+                <section class="side-button">
+                    <img class="yt-mini" src="resouces/youtube-icon.png" alt=""/>
+                    YouTube Kids
+                </section>
+
+                <hr>
+
+                <section class="side-button">
+                    <span class="material-symbols-outlined">settings</span>
+                    Settings
+                </section>
+                <section class="side-button">
+                    <span class="material-symbols-outlined">flag</span>
+                    Report history
+                </section>
+                <section class="side-button">
+                    <span class="material-symbols-outlined">help</span>
+                    Help
+                </section>
+                <section class="side-button">
+                    <span class="material-symbols-outlined">feedback</span>
+                    Send feedback
+                </section>
+
+                <nav class="aside-links">
+                    <a href="https://www.youtube.com/about/">About</a>
+                    <a href="https://www.youtube.com/about/press/">Press</a>
+                    <a href="https://www.youtube.com/about/copyright/">Copyright</a>
+                    <a href="https://www.youtube.com/t/contact_us/">Contact us</a>
+                    <a href="https://www.youtube.com/creators/">Creators</a>
+                    <a href="https://www.youtube.com/ads/">Advertise</a>
+                    <a href="https://developers.google.com/youtube">Developers</a>
+                </nav>
+                <nav class="aside-links">
+                    <a href="https://www.youtube.com/t/terms">Terms</a>
+                    <a href="https://www.youtube.com/t/privacy">Privacy</a>
+                    <a href="https://www.youtube.com/about/policies/">Policy &amp; Safety</a>
+                    <a href="https://www.youtube.com/howyoutubeworks">How YouTube works</a>
+                    <a href="https://www.youtube.com/new">Test new features</a>
+                </nav>
+                <p class="copyright">&copy; 2026 Google LLC</p>
+            </aside>
+
+            <main>
+                <nav class="chips">
+                    <span class="chip selected">All</span>
+                    <span class="chip">Music</span>
+                    <span class="chip">Mixes</span>
+                    <span class="chip">Live</span>
+                    <span class="chip">Gaming</span>
+                    <span class="chip">News</span>
+                    <span class="chip">Sports</span>
+                    <span class="chip">Computer programming</span>
+                    <span class="chip">Podcasts</span>
+                    <span class="chip">Action-adventure games</span>
+                    <span class="chip">Recently uploaded</span>
+                    <span class="chip">Watched</span>
+                    <span class="chip">New to you</span>
+                </nav>
+
+                <section class="videos">
+                    <article class="video">
+                        <a class="thumbnail" href="https://www.youtube.com/">
+                            <img src="resouces/thumb-1.svg" alt="HTML layout practice"/>
+                            <span class="duration">14:22</span>
+                        </a>
+                        <div class="video-info">
+                            <img class="channel-avatar" src="resouces/channel-1.svg" alt=""/>
+                            <div>
+                                <h3>Rebuild the YouTube homepage with HTML and CSS</h3>
+                                <p>ZAIO Academy <img src="resouces/verified-icon.svg" alt=""/></p>
+                                <p>128K views &middot; 2 days ago</p>
+                            </div>
+                            <img class="more" src="resouces/more-icon.svg" alt="more"/>
+                        </div>
+                    </article>
+
+                    <article class="video">
+                        <a class="thumbnail" href="https://www.youtube.com/">
+                            <img src="resouces/thumb-2.svg" alt="CSS Flexbox recap"/>
+                            <span class="duration">8:05</span>
+                        </a>
+                        <div class="video-info">
+                            <img class="channel-avatar" src="resouces/channel-2.svg" alt=""/>
+                            <div>
+                                <h3>Flexbox in one sitting: rows, wrap, and alignment</h3>
+                                <p>CSS Club</p>
+                                <p>86K views &middot; 5 days ago</p>
+                            </div>
+                            <img class="more" src="resouces/more-icon.svg" alt="more"/>
+                        </div>
+                    </article>
+
+                    <article class="video">
+                        <a class="thumbnail" href="https://www.youtube.com/">
+                            <img src="resouces/thumb-3.svg" alt="Cape Town morning hike"/>
+                            <span class="duration">22:41</span>
+                        </a>
+                        <div class="video-info">
+                            <img class="channel-avatar" src="resouces/channel-3.svg" alt=""/>
+                            <div>
+                                <h3>Sunrise hike above Cape Town</h3>
+                                <p>Nature Walks ZA</p>
+                                <p>41K views &middot; 1 week ago</p>
+                            </div>
+                            <img class="more" src="resouces/more-icon.svg" alt="more"/>
+                        </div>
+                    </article>
+
+                    <article class="video">
+                        <a class="thumbnail" href="https://www.youtube.com/">
+                            <img src="resouces/thumb-4.svg" alt="Lo-fi study mix"/>
+                            <span class="duration">3:01:12</span>
+                        </a>
+                        <div class="video-info">
+                            <img class="channel-avatar" src="resouces/channel-4.svg" alt=""/>
+                            <div>
+                                <h3>Lo-fi beats to study and code to</h3>
+                                <p>Lo-fi Desk <img src="resouces/verified-icon.svg" alt=""/></p>
+                                <p>2.1M views &middot; 3 weeks ago</p>
+                            </div>
+                            <img class="more" src="resouces/more-icon.svg" alt="more"/>
+                        </div>
+                    </article>
+                </section>
+
+                <section class="shorts">
+                    <h2>
+                        <span class="material-symbols-outlined">web_stories</span>
+                        Shorts
+                    </h2>
+                    <div class="shorts-row">
+                        <article class="short">
+                            <a href="https://www.youtube.com/">
+                                <img src="resouces/short-1.svg" alt="Short"/>
+                            </a>
+                            <h3>1 CSS trick for rounded search bars</h3>
+                            <p>214K views</p>
+                        </article>
+                        <article class="short">
+                            <a href="https://www.youtube.com/">
+                                <img src="resouces/short-2.svg" alt="Short"/>
+                            </a>
+                            <h3>Why the sidebar stays sticky</h3>
+                            <p>98K views</p>
+                        </article>
+                        <article class="short">
+                            <a href="https://www.youtube.com/">
+                                <img src="resouces/short-3.svg" alt="Short"/>
+                            </a>
+                            <h3>Plant watering reminder</h3>
+                            <p>56K views</p>
+                        </article>
+                        <article class="short">
+                            <a href="https://www.youtube.com/">
+                                <img src="resouces/short-4.svg" alt="Short"/>
+                            </a>
+                            <h3>Purple vs grey hover states</h3>
+                            <p>31K views</p>
+                        </article>
+                        <article class="short">
+                            <a href="https://www.youtube.com/">
+                                <img src="resouces/short-5.svg" alt="Short"/>
+                            </a>
+                            <h3>Thumbnail duration badge</h3>
+                            <p>77K views</p>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="videos">
+                    <article class="video">
+                        <a class="thumbnail" href="https://www.youtube.com/">
+                            <img src="resouces/thumb-5.svg" alt="CSS Grid in 12 minutes"/>
+                            <span class="duration">12:00</span>
+                        </a>
+                        <div class="video-info">
+                            <img class="channel-avatar" src="resouces/channel-2.svg" alt=""/>
+                            <div>
+                                <h3>CSS Grid in 12 minutes</h3>
+                                <p>CSS Club</p>
+                                <p>190K views &middot; 4 days ago</p>
+                            </div>
+                            <img class="more" src="resouces/more-icon.svg" alt="more"/>
+                        </div>
+                    </article>
+
+                    <article class="video">
+                        <a class="thumbnail" href="https://www.youtube.com/">
+                            <img src="resouces/thumb-6.svg" alt="Springboks highlights"/>
+                            <span class="duration">9:18</span>
+                        </a>
+                        <div class="video-info">
+                            <img class="channel-avatar" src="resouces/channel-5.svg" alt=""/>
+                            <div>
+                                <h3>Springboks try of the week</h3>
+                                <p>Springbok TV <img src="resouces/verified-icon.svg" alt=""/></p>
+                                <p>804K views &middot; 12 hours ago</p>
+                            </div>
+                            <img class="more" src="resouces/more-icon.svg" alt="more"/>
+                        </div>
+                    </article>
+
+                    <article class="video">
+                        <a class="thumbnail" href="https://www.youtube.com/">
+                            <img src="resouces/thumb-7.svg" alt="Build a search bar"/>
+                            <span class="duration">18:47</span>
+                        </a>
+                        <div class="video-info">
+                            <img class="channel-avatar" src="resouces/channel-1.svg" alt=""/>
+                            <div>
+                                <h3>Build a YouTube-style search bar</h3>
+                                <p>ZAIO Academy</p>
+                                <p>64K views &middot; 6 days ago</p>
+                            </div>
+                            <img class="more" src="resouces/more-icon.svg" alt="more"/>
+                        </div>
+                    </article>
+
+                    <article class="video">
+                        <a class="thumbnail" href="https://www.youtube.com/">
+                            <img src="resouces/thumb-8.svg" alt="Street food in Durban"/>
+                            <span class="duration">16:33</span>
+                        </a>
+                        <div class="video-info">
+                            <img class="channel-avatar" src="resouces/channel-6.svg" alt=""/>
+                            <div>
+                                <h3>Street food crawl through Durban</h3>
+                                <p>Kitchen ZA</p>
+                                <p>112K views &middot; 2 weeks ago</p>
+                            </div>
+                            <img class="more" src="resouces/more-icon.svg" alt="more"/>
+                        </div>
+                    </article>
+
+                    <article class="video">
+                        <a class="thumbnail" href="https://www.youtube.com/">
+                            <img src="resouces/thumb-9.svg" alt="Plant care basics"/>
+                            <span class="duration">11:09</span>
+                        </a>
+                        <div class="video-info">
+                            <img class="channel-avatar" src="resouces/channel-3.svg" alt=""/>
+                            <div>
+                                <h3>Plant care basics for a small desk</h3>
+                                <p>Nature Walks ZA</p>
+                                <p>19K views &middot; 3 days ago</p>
+                            </div>
+                            <img class="more" src="resouces/more-icon.svg" alt="more"/>
+                        </div>
+                    </article>
+
+                    <article class="video">
+                        <a class="thumbnail" href="https://www.youtube.com/">
+                            <img src="resouces/thumb-2.svg" alt="Hover states"/>
+                            <span class="duration">7:28</span>
+                        </a>
+                        <div class="video-info">
+                            <img class="channel-avatar" src="resouces/avatar.png" alt=""/>
+                            <div>
+                                <h3>Making icons feel clickable with hover states</h3>
+                                <p>chrs</p>
+                                <p>8.4K views &middot; 1 day ago</p>
+                            </div>
+                            <img class="more" src="resouces/more-icon.svg" alt="more"/>
+                        </div>
+                    </article>
+                </section>
+            </main>
+        </div>
     </body>
 </html>

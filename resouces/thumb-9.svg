@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180">
+  <rect width="320" height="180" fill="#052e16"/>
+  <circle cx="160" cy="70" r="40" fill="#22c55e"/>
+  <rect x="148" y="70" width="24" height="56" fill="#14532d"/>
+  <text x="24" y="160" fill="#dcfce7" font-family="Arial" font-size="16">Plant care basics</text>
+</svg>

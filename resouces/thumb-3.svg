@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180">
+  <rect width="320" height="180" fill="#102820"/>
+  <polygon points="40,150 90,70 140,150" fill="#3ddc97"/>
+  <polygon points="120,150 190,40 260,150" fill="#1f7a4d"/>
+  <rect x="0" y="150" width="320" height="30" fill="#0b1c16"/>
+  <text x="24" y="168" fill="#cdebd8" font-family="Arial" font-size="16">Cape Town morning hike</text>
+</svg>
