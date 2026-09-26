@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180">
-  <rect width="320" height="180" fill="#2d1b4e"/>
-  <circle cx="160" cy="78" r="42" fill="#ff4ecd"/>
-  <circle cx="160" cy="78" r="22" fill="#1b102e"/>
-  <rect x="40" y="132" width="240" height="18" rx="9" fill="#7b5cff"/>
-  <text x="24" y="168" fill="#e8d7ff" font-family="Arial" font-size="16">CSS Flexbox recap</text>
-</svg>

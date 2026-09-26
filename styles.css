@@ -221,10 +221,6 @@ hr{
     border-radius: 0;
 }
 
-.side-button .chevron{
-    margin-left: auto;
-}
-
 .aside-links{
     display: flex;
     flex-wrap: wrap;
